@@ -89,18 +89,17 @@ Evaluated on both train and validation sets using:
 - Confusion Matrix
 - Precision / Recall / F1 Score (`sklearn.metrics`)
 
-> Add your confusion matrix outputs here
 
 ---
 
 ## Project Structure
 
 ```
-Dogs-vs-Cats-EfficientNetV2S/
+Dogs-vs-Cats-Image-Classification/
 ├── notebook/
 │   └── dogs_vs_cats_classification.ipynb   # Full pipeline: EDA → fine-tuning → evaluation
 ├── results/
-│   ├── training_curve.png                  # Training vs validation accuracy
+│   ├── training_curves.png                  # Training vs validation accuracy
 │   └── confusion_matrix.png               # Confusion matrix on validation set
 ├── requirements.txt
 └── README.md
@@ -111,8 +110,8 @@ Dogs-vs-Cats-EfficientNetV2S/
 ## Quickstart
 
 ```bash
-git clone https://github.com/FatinIshraq/Dogs-vs-Cats-EfficientNetV2S
-cd Dogs-vs-Cats-EfficientNetV2S
+git clone https://github.com/FatinIshraq/Dogs-vs-Cats-Image-Classification
+cd Dogs-vs-Cats-Image-Classification
 pip install -r requirements.txt
 jupyter notebook notebook/dogs_vs_cats_classification.ipynb
 ```
