@@ -14,10 +14,14 @@ Binary image classifier distinguishing dogs from cats by fine-tuning EfficientNe
 
 | Metric | Train | Validation |
 |--------|-------|------------|
-| Accuracy | >99% | >99% |
-| Loss | Binary Cross-Entropy | Binary Cross-Entropy |
+| Accuracy | ~99.5% | ~99.1% |
+| Final Loss | ~0.025 | ~0.015 |
 
-> Add your accuracy/loss curve plots here (`results/accuracy_curve.png`, `results/loss_curve.png`)
+### Training Curves
+![Training Curves](results/training_curves.png)
+
+### Confusion Matrix
+![Confusion Matrix](results/confusion_matrix.png)
 
 ---
 
@@ -96,8 +100,7 @@ Dogs-vs-Cats-EfficientNetV2S/
 ├── notebook/
 │   └── dogs_vs_cats_classification.ipynb   # Full pipeline: EDA → fine-tuning → evaluation
 ├── results/
-│   ├── accuracy_curve.png                  # Training vs validation accuracy
-│   ├── loss_curve.png                      # Training vs validation loss
+│   ├── training_curve.png                  # Training vs validation accuracy
 │   └── confusion_matrix.png               # Confusion matrix on validation set
 ├── requirements.txt
 └── README.md
