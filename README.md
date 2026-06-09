@@ -17,11 +17,6 @@ Binary image classifier distinguishing dogs from cats by fine-tuning EfficientNe
 | Accuracy | ~99.5% | ~99.1% |
 | Final Loss | ~0.025 | ~0.015 |
 
-### Training Curves
-![Training Curves](results/training_curves.png)
-
-### Confusion Matrix
-![Confusion Matrix](results/confusion_matrix.png)
 
 ---
 
